@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="header">
+        <h1 id="nav-title">LIBRARY SYSTEM</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#book">Book</a></li>
+                <li><a href="#register_section" target="blank">Register</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <br>
+    <br>
+    
+        <div id="book">
+        <h1 >Books</h1>
+        <table class="tabl">
+            <thead>
+               <tr>
+                    <th>Book ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availability</th>
+               </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <table>
+                            <tr>
+                                <a href="#">Beautiful Things</a>
+                                <td>Publication date:1988</td>
+                            </tr>
+                            <tr>
+                                <td>pagecount:200</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:789456</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Hunter Biden</td>
+                    <td>Genre1</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <table>
+                            <tr>
+                                <a href="#">The Little Book of Encouragement</a>
+                                <td>Publication date:2012</td>
+                            </tr>
+                            <tr>
+                                <td>pagecount:500</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:345678</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Dalai Lama</td>
+                    <td>Genre2</td>
+                    <td>not Available</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <table>
+                            <tr>
+                                <a href="#">The Living Mountain</a>
+                                <td>Publication date:2010</td>
+                            </tr>
+                            <tr>
+                                <td>pagecount:255</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:123456</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Amitav Ghosh</td>
+                    <td>Genre3</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td> <table>
+                        <tr>
+                            <a href="#">The Christmas Pig</a>
+                            <td>Publication date:2011</td>
+                        </tr>
+                        <tr>
+                            <td>pagecount:300</td>
+                        </tr>
+                        <tr>
+                            <td>ISBN:234567</td>
+                        </tr>
+                    </table></td>
+                    <td>JK Rowling</td>
+                    <td>Genre4</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td> <table>
+                        <tr>
+                            <a href="#">Right Under our Nose</a>
+                            <td>Publication date:2013</td>
+                        </tr>
+                        <tr>
+                            <td>pagecount:600</td>
+                        </tr>
+                        <tr>
+                            <td>ISBN:567894</td>
+                        </tr>
+                    </table></td>
+                    <td>R Giridharan</td>
+                    <td>Genre5</td>
+                    <td>Not Available</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td> <table>
+                        <tr>
+                            <a href="#">The Terrible, Horrible, Very Bad Good News</a>
+                            <td>Publication date:</td>
+                        </tr>
+                        <tr>
+                            <td>pagecount:185</td>
+                        </tr>
+                        <tr>
+                            <td>ISBN:213456</td>
+                        </tr>
+                    </table></td>
+                    <td>Meghna Pant</td>
+                    <td>Genre6</td>
+                    <td>Available</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <br>
+    <br>
+    <h2 id="register_section">Register</h2>
+      <div id="register">
+        <form id="my-form" action="index.html" method="post">
+            <div>
+                <label for="firstname">First Name</label>
+                <div><input type="text" id="firstname" required></div>
+            </div>
+            <div>
+                <label for="lastname">Last Name</label>
+                <div><input type="text" id="lastname" required></div>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <div><input type="email" id="email" required></div>
+            </div>
+            <div>
+                <label for="dob">Date of Birth</label>
+                <div><input type="date" id="dob" required></div>
+            </div>
+            <div>
+                <label for="age">Age</label>
+                <div><input type="number" id="age"  min="5" max="100" required></div>
+            </div>
+            <div>
+                <label for="pswd">Password</label>
+                <div><input type="password" id="pswd" required></div>
+            </div>
+            <div>
+                <label for="cpswd">Confirm Password</label>
+                <div><input type="password"id="cpswd" required></div>
+            </div>
+            <div>
+                <div>
+                    <button type="register">Register</button>
+                </div>
+            </div>
+        </form>
+        </div>
+    
+</body>
+</html>
